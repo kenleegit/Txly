@@ -4,7 +4,6 @@
     <Label Text="I can play mp3 file by SimpleAudioPlayer!" />
     <Label x:Name="label1"/>
     <Label x:Name="label2"/>
-    <Label x:Name="label3"/>
-    <Label x:Name="label4"/>
+    <WebView x:Name="webView" VerticalOptions="FillAndExpand" />
 </StackLayout>
 </ContentPage>
