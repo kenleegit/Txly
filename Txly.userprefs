@@ -5,9 +5,20 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Txly Status">
     <Files>
       <File FileName="Txly/MediaPlayerViewModel.cs" Line="112" Column="10" />
-      <File FileName="Txly/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="Txly/App.xaml.cs" Line="22" Column="17" />
       <File FileName="Txly/TxlyPage.xaml" Line="10" Column="1" />
-      <File FileName="Txly/TxlyPage.xaml.cs" Line="25" Column="34" />
+      <File FileName="Txly/TxlyPage.xaml.cs" Line="5" Column="2" />
+      <File FileName="Txly/MainPage.cs" Line="49" Column="22" />
+      <File FileName="Txly/AboutPage.xaml.cs" Line="12" Column="13" />
+      <File FileName="Txly/AboutPage.xaml" Line="27" Column="22" />
+      <File FileName="Txly/AboutViewModel.cs" Line="5" Column="1" />
+      <File FileName="Txly/BaseViewModel.cs" Line="12" Column="24" />
+      <File FileName="Txly/Services/CloudDataStore.cs" Line="9" Column="14" />
+      <File FileName="Txly/Services/IDataStore.cs" Line="3" Column="1" />
+      <File FileName="Txly/Services/MockDataStore.cs" Line="5" Column="1" />
+      <File FileName="Txly/Models/Item.cs" Line="9" Column="48" />
+      <File FileName="Txly/App.xaml" Line="7" Column="1" />
+      <File FileName="iOS/packages.config" Line="1" Column="1" />
       <File FileName="Txly Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>

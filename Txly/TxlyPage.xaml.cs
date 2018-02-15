@@ -6,6 +6,7 @@ namespace Txly
     public partial class TxlyPage : ContentPage
     {
         MediaPlayerViewModel viewModel;
+
         public TxlyPage()
         {
             InitializeComponent();
