@@ -21,7 +21,9 @@ namespace Txly
 
             var url = new UrlWebViewSource
             {
-                Url = "https://www4.cbox.ws/box/?boxid=4327572&boxtag=Cf5HyA&tid=1&tkey=ce16b6434b5e5b3b"
+                //Url = "https://www4.cbox.ws/box/?boxid=4327572&boxtag=Cf5HyA&tid=1&tkey=ce16b6434b5e5b3b"
+                //Tid=2 is a testing forum
+                Url = "https://www4.cbox.ws/box/?boxid=4327572&boxtag=Cf5HyA&tid=2&tkey=d87d9222a517cbaa"
             };
             webView.Source = url;
 
