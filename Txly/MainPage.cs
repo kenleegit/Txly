@@ -8,7 +8,7 @@ namespace Txly
     {
         public MainPage()
         {
-            Page txlyPage = null;
+            Page txlyPage, aboutPage = null;
 
             switch (Device.RuntimePlatform)
             {
@@ -27,10 +27,10 @@ namespace Txly
                         Title = "收藏"
                     };
                     */
-                    //aboutPage = new NavigationPage(new AboutPage())
-                    //{
-                    //    Title = "其他"
-                    //};
+                    aboutPage = new NavigationPage(new AboutPage())
+                    {
+                        Title = "其他"
+                    };
                     txlyPage.Icon = "tab_feed.png";
                     //aboutPage.Icon = "tab_about.png";
 
@@ -49,17 +49,17 @@ namespace Txly
                     {
                         Title = "收藏"
                     };*/
-                    //aboutPage = new AboutPage()
-                    //{
-                    //    Title = "其他"
-                    //};
+                    aboutPage = new AboutPage()
+                    {
+                        Title = "其他"
+                    };
                     break;
             }
 
             Children.Add(txlyPage);
             //Children.Add(storiesPage);
             //Children.Add(bookItemsPage);
-            //Children.Add(aboutPage);
+            Children.Add(aboutPage);
 
             Title = Children[0].Title;
         }
