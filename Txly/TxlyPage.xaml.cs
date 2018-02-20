@@ -17,7 +17,7 @@ namespace Txly
             viewModel.Init();
             viewModel.MediaPlayer.Play();
             label1.Text = viewModel.MediaPlayer.ToString();
-            label2.Text = viewModel.MediaPlayer.MediaExtractor.ToString();
+            //label2.Text = viewModel.MediaPlayer.MediaExtractor.ToString();
 
             var url = new UrlWebViewSource
             {
@@ -35,6 +35,18 @@ namespace Txly
             //var player = CrossSimpleAudioPlayer.Current;
             //player.Load("wang04.mp3");
             //player.Play();
+        }
+
+        void OnBtnPauseClicked(object sender, System.EventArgs e)
+        {
+            //Toggle play status
+            //System.Console.WriteLine("B4 Status: " + viewModel.MediaPlayer.Status.ToString());
+            if ( viewModel.MediaPlayer.Status.ToString().Equals("Playing") ){
+                viewModel.MediaPlayer.PlaybackController.Pause();
+            } else {
+                viewModel.MediaPlayer.PlaybackController.Play();
+            }
+            //System.Console.WriteLine("AF Status: " + viewModel.MediaPlayer.Status.ToString());
         }
 
         public static readonly Thickness PagePadding = GetPagePadding();
