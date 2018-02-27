@@ -1,4 +1,4 @@
-﻿//using Plugin.SimpleAudioPlayer;
+﻿using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms;
 
 namespace Txly
@@ -10,6 +10,9 @@ namespace Txly
         public TxlyPage()
         {
             InitializeComponent();
+
+            //Fix iPhone X notch https://stackoverflow.com/questions/47779937/how-to-allow-for-ios-status-bar-and-iphone-x-notch-in-xamarin-forms?noredirect=1&lq=1
+            On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 
             BindingContext = viewModel = new MediaPlayerViewModel();
             Padding = PagePadding;
