@@ -16,14 +16,12 @@ namespace Txly
 
             viewModel.Init();
             viewModel.MediaPlayer.Play();
-            label1.Text = viewModel.MediaPlayer.ToString();
+            label1.Text = "同行频道APP测试版";
             //label2.Text = viewModel.MediaPlayer.MediaExtractor.ToString();
 
             var url = new UrlWebViewSource
             {
-                //Url = "https://www4.cbox.ws/box/?boxid=4327572&boxtag=Cf5HyA&tid=1&tkey=ce16b6434b5e5b3b"
-                //Tid=2 is a testing forum
-                Url = "https://www4.cbox.ws/box/?boxid=4327572&boxtag=Cf5HyA&tid=2&tkey=d87d9222a517cbaa"
+                Url = "https://www7.cbox.ws/box/?boxid=828515&boxtag=PaHjHJ"
             };
             webView.Source = url;
 
@@ -43,8 +41,10 @@ namespace Txly
             //System.Console.WriteLine("B4 Status: " + viewModel.MediaPlayer.Status.ToString());
             if ( viewModel.MediaPlayer.Status.ToString().Equals("Playing") ){
                 viewModel.MediaPlayer.PlaybackController.Pause();
+                BtnPause.Text = "播放";
             } else {
                 viewModel.MediaPlayer.PlaybackController.Play();
+                BtnPause.Text = "暂停";
             }
             //System.Console.WriteLine("AF Status: " + viewModel.MediaPlayer.Status.ToString());
         }

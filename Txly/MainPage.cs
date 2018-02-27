@@ -32,7 +32,7 @@ namespace Txly
                         Title = "其他"
                     };
                     txlyPage.Icon = "tab_feed.png";
-                    //aboutPage.Icon = "tab_about.png";
+                    aboutPage.Icon = "tab_about.png";
 
                     break;
                 default:

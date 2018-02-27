@@ -123,6 +123,25 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image.imageset\splash640x960.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default1920x1080.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default1242x2208.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default750x1334.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default2208x1242.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default640x960.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default640x1136.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default768x1024.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default1536x2048.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default1024x768.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default2048x1536.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default320x480.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Interstate1024x1024.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -146,6 +165,7 @@
     <BundleResource Include="Resources\tab_feed.png" />
     <BundleResource Include="Resources\tab_feed%402x.png" />
     <BundleResource Include="Resources\tab_feed%403x.png" />
+    <BundleResource Include="Resources\ly_logo.png" />
   </ItemGroup>
   <Import Project="..\Txly\Txly.projitems" Label="Shared" Condition="Exists('..\Txly\Txly.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

@@ -1,14 +1,12 @@
-﻿<Properties StartupConfiguration="{F48D5F88-2422-40E2-95F9-68613C9C3341}|Default">
-  <MonoDevelop.Ide.ItemProperties.Txly.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2F9FD5E4-753C-4DC6-AF41-B6AE9A6E87E9" />
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{7D2D09F8-8370-4502-8763-81C80C599EAF}|Default">
+  <MonoDevelop.Ide.ItemProperties.Txly.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C376BE5B-0C24-4174-BB17-63031FA025A7" automaticSigning="False" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Txly Status">
     <Files>
-      <File FileName="Txly/ViewModels/MediaPlayerViewModel.cs" Line="47" Column="29" />
-      <File FileName="Txly/App.xaml.cs" Line="22" Column="17" />
-      <File FileName="Txly/TxlyPage.xaml" Line="10" Column="1" />
-      <File FileName="Txly/TxlyPage.xaml.cs" Line="18" Column="34" />
-      <File FileName="Txly/MainPage.cs" Line="7" Column="12" />
-      <File FileName="Txly/AboutPage.xaml.cs" Line="13" Column="10" />
-      <File FileName="Txly/AboutPage.xaml" Line="30" Column="1" />
+      <File FileName="Txly/TxlyPage.xaml" Line="11" Column="1" />
+      <File FileName="Txly/TxlyPage.xaml.cs" Line="26" Column="26" />
+      <File FileName="Txly/MainPage.cs" Line="33" Column="23" />
+      <File FileName="Txly/AboutPage.xaml.cs" Line="18" Column="10" />
+      <File FileName="Txly/AboutPage.xaml" Line="13" Column="47" />
       <File FileName="Txly/ViewModels/AboutViewModel.cs" Line="5" Column="1" />
       <File FileName="Txly/ViewModels/BaseViewModel.cs" Line="12" Column="24" />
       <File FileName="Txly/Services/CloudDataStore.cs" Line="9" Column="14" />
@@ -21,15 +19,16 @@
       <File FileName="Droid/Resources/values/styles.xml" Line="1" Column="1" />
       <File FileName="Droid/Resources/Resource.designer.cs" Line="1" Column="1" />
       <File FileName="../../../../Library/Frameworks/Mono.framework/Versions/5.4.1/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2003" Column="5" />
-      <File FileName="Txly Status" />
       <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="iOS/LaunchScreen.storyboard" />
+      <File FileName="Txly Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Txly.Droid PreferredExecutionTarget="Android.06a063cf" />
+  <MonoDevelop.Ide.ItemProperties.Txly.Droid PreferredExecutionTarget="Android.4.65_720p_Galaxy_Nexus_API_22" />
   <MultiItemStartupConfigurations />
 </Properties>

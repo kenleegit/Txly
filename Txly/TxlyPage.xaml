@@ -4,7 +4,7 @@
     <Label Text="I can play mp3 file by SimpleAudioPlayer!" />
     <Label x:Name="label1"/>
     <!--<Label x:Name="label2"/>-->
-    <Button Text="暫停" x:Name="BtnPause" Clicked="OnBtnPauseClicked" />
+    <Button Text="暂停" x:Name="BtnPause" Clicked="OnBtnPauseClicked" BackgroundColor="{StaticResource Primary}" TextColor="White" />
     <WebView x:Name="webView" VerticalOptions="FillAndExpand" />
 </StackLayout>
 </ContentPage>
