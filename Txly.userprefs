@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{7D2D09F8-8370-4502-8763-81C80C599EAF}|Default">
-  <MonoDevelop.Ide.ItemProperties.Txly.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C376BE5B-0C24-4174-BB17-63031FA025A7" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Txly Status">
+  <MonoDevelop.Ide.ItemProperties.Txly.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.86C43C9D-C4CA-4DAA-A694-91051966E329" automaticSigning="False" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Txly/TxlyPage.xaml" Line="11" Column="1" />
-      <File FileName="Txly/TxlyPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Txly/MainPage.cs" Line="33" Column="23" />
+      <File FileName="Txly/Views/TxlyPage.xaml" Line="7" Column="15" />
+      <File FileName="Txly/Views/TxlyPage.xaml.cs" Line="15" Column="13" />
+      <File FileName="Txly/Views/MainPage.cs" Line="1" Column="1" />
       <File FileName="Txly/Views/AboutPage.xaml.cs" Line="39" Column="37" />
       <File FileName="Txly/Views/AboutPage.xaml" Line="21" Column="52" />
       <File FileName="Txly/ViewModels/AboutViewModel.cs" Line="5" Column="1" />
@@ -28,6 +28,7 @@
       <File FileName="Txly/Views/ModalWebPage.xaml" Line="2" Column="128" />
       <File FileName="Txly/Views/ModalWebPage.xaml.cs" Line="8" Column="27" />
       <File FileName="Txly Status" />
+      <File FileName="iOS/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -36,5 +37,6 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Txly.Droid PreferredExecutionTarget="Android.4.65_720p_Galaxy_Nexus_API_22" />
+  <AuthorInfo Name="FEBCHK" Email="" Copyright="" Company="Far East Broadcast Company Information" Trademark="" />
   <MultiItemStartupConfigurations />
 </Properties>
