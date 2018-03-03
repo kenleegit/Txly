@@ -17,12 +17,13 @@
         </StackLayout>
         <ScrollView Grid.Row="1">
             <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
-                <Button Margin="0,2,0,0" Text="關於我們" x:Name="BtnAboutUs" Clicked="OnBtnClicked" BackgroundColor="{StaticResource Primary}" TextColor="White" />
-                <Button Margin="0,2,0,0" Text="聯絡我們" x:Name="BtnContactUs" Clicked="OnBtnClicked" BackgroundColor="{StaticResource Primary}" TextColor="White" />
-                <Button Margin="0,2,0,0" Text="網上奉獻" Command="{Binding OpenWebCommand}" BackgroundColor="{StaticResource Primary}" TextColor="White" />
-                <Button Margin="0,2,0,0" Text="使用條款" x:Name="BtnUsageTerms" Clicked="OnBtnClicked" BackgroundColor="{StaticResource Primary}" TextColor="White" />
+                <!--<Button Margin="0,2,0,0" Text="關於我們" x:Name="BtnAboutUs" Clicked="OnBtnClicked" BackgroundColor="{StaticResource Primary}" TextColor="White" />-->
+                <Button Margin="0,2,0,0" Text="联络我们" x:Name="BtnContactUs" Clicked="OnBtnClicked" BackgroundColor="{StaticResource Primary}" TextColor="White" />
+                <Button Margin="0,2,0,0" Text="网上奉献" Command="{Binding OpenWebCommand}" BackgroundColor="{StaticResource Primary}" TextColor="White" />
+                <!--<Button Margin="0,2,0,0" Text="使用條款" x:Name="BtnUsageTerms" Clicked="OnBtnClicked" BackgroundColor="{StaticResource Primary}" TextColor="White" />
                 <Button Margin="0,2,0,0" Text="私隱政策" x:Name="BtnPrivacyPolicy" Clicked="OnBtnClicked" BackgroundColor="{StaticResource Primary}" TextColor="White" />
                 <Button Margin="0,2,0,0" Text="免責聲明" x:Name="BtnDisclaimer" Clicked="OnBtnClicked" BackgroundColor="{StaticResource Primary}" TextColor="White" />
+                -->
             </StackLayout>
         </ScrollView>
     </Grid>
