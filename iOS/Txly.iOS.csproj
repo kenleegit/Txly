@@ -127,8 +127,6 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Image.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Image.imageset\splash640x960.png" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default1920x1080.png" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default1242x2208.png" />
@@ -157,12 +155,20 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%401x.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%402x-1.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%402x.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default640x1136Retina4.png" />
+    <ImageAsset Include="Assets.xcassets\ly_logo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ly_logo.imageset\ly_logo.png" />
+    <ImageAsset Include="Assets.xcassets\ly_logo.imageset\ly_logo%402x.png" />
+    <ImageAsset Include="Assets.xcassets\ly_logo.imageset\ly_logo%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Assets.xcassets\ly_logo.imageset\" />
   </ItemGroup>
   <ItemGroup>
-    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="LaunchScreen.storyboard">
+      <IncludeInPackage>false</IncludeInPackage>
+    </InterfaceDefinition>
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />

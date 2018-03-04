@@ -121,6 +121,7 @@
     {
       "orientation": "portrait",
       "extent": "full-screen",
+      "filename": "Default640x1136Retina4.png",
       "size": "320x568",
       "subtype": "retina4",
       "scale": "2x",

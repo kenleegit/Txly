@@ -15,7 +15,7 @@ namespace Txly
                 case Device.iOS:
                     txlyPage = new NavigationPage(new TxlyPage())
                     {
-                        Title = "第五空間"
+                        Title = "第五空间"
                     };
                     /*
                     storiesPage = new NavigationPage(new StoriesPage())

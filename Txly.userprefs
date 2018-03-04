@@ -1,10 +1,7 @@
 ﻿<Properties StartupConfiguration="{7D2D09F8-8370-4502-8763-81C80C599EAF}|Default">
-  <MonoDevelop.Ide.ItemProperties.Txly.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.530989f09a7e8a762f2b20bd2593919ca321132d" automaticSigning="False">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="RFY57J3C2T" TeamId="3FJKLQ39QG" />
-  </MonoDevelop.Ide.ItemProperties.Txly.iOS>
+  <MonoDevelop.Ide.ItemProperties.Txly.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.530989f09a7e8a762f2b20bd2593919ca321132d" automaticSigning="False" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Txly Status">
     <Files>
-      <File FileName="iOS/LaunchScreen.storyboard" />
       <File FileName="Txly/App.xaml.cs" Line="1" Column="1" />
       <File FileName="Txly/ViewModels/MediaPlayerViewModel.cs" Line="1" Column="1" />
       <File FileName="Txly/Views/ContactLYPage.xaml" Line="15" Column="1" />
@@ -13,6 +10,14 @@
       <File FileName="Txly/Views/ModalWebPage.xaml.cs" Line="8" Column="27" />
       <File FileName="../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.4/lib/msbuild/iOS/Xamarin.iOS.Common.targets" Line="635" Column="3" />
       <File FileName="iOS/Info.plist" />
+      <File FileName="iOS/LaunchScreen.storyboard" />
+      <File FileName="Txly/App.xaml" Line="20" Column="1" />
+      <File FileName="Txly/Views/MainPage.cs" Line="19" Column="23" />
+      <File FileName="Txly/Views/TxlyPage.xaml" Line="2" Column="183" />
+      <File FileName="Txly/Views/AboutPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Txly/Views/AboutPage.xaml" Line="31" Column="1" />
+      <File FileName="Txly/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
+      <File FileName="Txly/Views/TxlyPage.xaml.cs" Line="1" Column="1" />
       <File FileName="Txly Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
