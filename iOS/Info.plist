@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDisplayName</key>
 	<string>Txly</string>
-	<key>CFBundleName</key>
-	<string>同行再版</string>
 	<key>CFBundleIdentifier</key>
 	<string>net.febchk.Txly</string>
 	<key>CFBundleShortVersionString</key>
@@ -30,8 +28,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -63,5 +59,7 @@
 	</array>
 	<key>XSLaunchImageAssets</key>
 	<string>Assets.xcassets/LaunchImage.launchimage</string>
+	<key>CFBundleName</key>
+	<string>Txly</string>
 </dict>
 </plist>

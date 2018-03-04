@@ -1,37 +1,22 @@
 ﻿<Properties StartupConfiguration="{7D2D09F8-8370-4502-8763-81C80C599EAF}|Default">
-  <MonoDevelop.Ide.ItemProperties.Txly.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.86C43C9D-C4CA-4DAA-A694-91051966E329" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Txly.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.530989f09a7e8a762f2b20bd2593919ca321132d" automaticSigning="False">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="RFY57J3C2T" TeamId="3FJKLQ39QG" />
+  </MonoDevelop.Ide.ItemProperties.Txly.iOS>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Txly Status">
     <Files>
-      <File FileName="Txly/Views/TxlyPage.xaml" Line="7" Column="15" />
-      <File FileName="Txly/Views/TxlyPage.xaml.cs" Line="15" Column="13" />
-      <File FileName="Txly/Views/MainPage.cs" Line="1" Column="1" />
-      <File FileName="Txly/Views/AboutPage.xaml.cs" Line="39" Column="37" />
-      <File FileName="Txly/Views/AboutPage.xaml" Line="21" Column="52" />
-      <File FileName="Txly/ViewModels/AboutViewModel.cs" Line="5" Column="1" />
-      <File FileName="Txly/ViewModels/BaseViewModel.cs" Line="12" Column="24" />
-      <File FileName="Txly/Services/CloudDataStore.cs" Line="9" Column="14" />
-      <File FileName="Txly/Services/IDataStore.cs" Line="3" Column="1" />
-      <File FileName="Txly/Services/MockDataStore.cs" Line="5" Column="1" />
-      <File FileName="Txly/Models/Item.cs" Line="9" Column="48" />
-      <File FileName="Txly/App.xaml" Line="20" Column="1" />
-      <File FileName="iOS/packages.config" Line="1" Column="1" />
-      <File FileName="iOS/obj/iPhoneSimulator/Debug/Txly.iOS.AboutPage.xaml.g.cs" Line="34" Column="1" />
-      <File FileName="Droid/Resources/values/styles.xml" Line="1" Column="1" />
-      <File FileName="Droid/Resources/Resource.designer.cs" Line="1" Column="1" />
-      <File FileName="../../../../Library/Frameworks/Mono.framework/Versions/5.4.1/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2003" Column="5" />
-      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
       <File FileName="iOS/LaunchScreen.storyboard" />
       <File FileName="Txly/App.xaml.cs" Line="1" Column="1" />
       <File FileName="Txly/ViewModels/MediaPlayerViewModel.cs" Line="1" Column="1" />
-      <File FileName="Txly/Views/ContactLYPage.xaml" Line="7" Column="22" />
+      <File FileName="Txly/Views/ContactLYPage.xaml" Line="15" Column="1" />
       <File FileName="Txly/Views/ContactLYPage.xaml.cs" Line="6" Column="15" />
-      <File FileName="Txly/Views/ModalWebPage.xaml" Line="2" Column="128" />
+      <File FileName="Txly/Views/ModalWebPage.xaml" Line="13" Column="1" />
       <File FileName="Txly/Views/ModalWebPage.xaml.cs" Line="8" Column="27" />
-      <File FileName="Txly Status" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.4/lib/msbuild/iOS/Xamarin.iOS.Common.targets" Line="635" Column="3" />
       <File FileName="iOS/Info.plist" />
+      <File FileName="Txly Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
